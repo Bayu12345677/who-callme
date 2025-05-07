@@ -30,7 +30,7 @@ apt install curl git ruby
 apt install make clang
 apt install screen
 apt install python
-apt install python-pip mpv
+apt install python-pip mpv ossp-uuid
 pip install rich
 pip install rich-cli
 gem install lolcat
