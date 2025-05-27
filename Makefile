@@ -2,7 +2,7 @@ setup:
 	apt-get update
 	apt-get upgrade
 	apt-get install ruby python ossp-uuid figlet pv toilet nodejs openssl-tool
-	apt-get install curl xh ncurses-utils clang bc nodejs-lts xz-utils nala
+	apt-get install curl xh ncurses-utils tree clang bc nodejs-lts xz-utils nala
 	pip install -r requirements.txt
 	pip install httpie
 	pip install phonenumbers
@@ -15,4 +15,6 @@ id:
 	@echo "[?] id termux:"
 	@bash -c "id"
 Run:
+	@echo "[INPO] update kali ini mungkin akan sangat lama saat menjalankan script"
+	@echo "[INPO] di karenakan ulah freetutorial kontol"
 	@bash app.enc
