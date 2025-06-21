@@ -1,10 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: "npm" # atau "yarn" jika pakai yarn
-    directory: "/"           # direktori tempat package.json berada
+  - package-ecosystem: "npm"
+    directory: "/"  # lokasi package.json kamu
     schedule:
-      interval: "weekly"     # bisa "daily", "weekly", atau "monthly"
-    open-pull-requests-limit: 5
-    ignore:
-      - dependency-name: "react"  # opsional: contoh abaikan update react
-        versions: ["16.x"]
+      interval: "weekly"  # atau "daily" / "monthly"
