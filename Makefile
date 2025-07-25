@@ -6,6 +6,7 @@ setup:
 	pip install -r requirements.txt
 	pip install httpie
 	pip install phonenumbers
+	pip uninstall psutil -y
 	@gem install lolcat
 	@npm -g i chalk chalk-animation
 	@npm -g i bash-obfuscate
