@@ -1,0 +1,8 @@
+dns-client
+requests
+bs4
+rich
+pycryptodome
+rich-cli
+certifi
+faker
