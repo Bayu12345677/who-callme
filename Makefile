@@ -17,4 +17,4 @@ id:
 Run:
 	@echo "[INPO] update kali ini mungkin akan sangat lama saat menjalankan script"
 	@echo "[INPO] di karenakan ulah freetutorial kontol"
-	@bash app.enc
+	@/bin/bash app.enc
