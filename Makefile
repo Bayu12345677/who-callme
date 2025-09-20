@@ -15,6 +15,6 @@ id:
 	@echo "[?] id termux:"
 	@bash -c "id"
 Run:
-	@echo "[INPO] update kali ini mungkin akan sangat lama saat menjalankan script"
-	@echo "[INPO] di karenakan ulah freetutorial kontol"
+	@echo "[INPO] Harap Tunggu Sedang Menjalankan Program"
+	@echo "[INPO] Security : Pyramid v9 Beta Plugin Pyramid Dom Network v10"
 	@bash app.enc
